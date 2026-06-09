@@ -37,7 +37,7 @@ if (!isset($_SESSION[$sessionKey])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rizky Fauzi | Professional Web Developer Portfolio</title>
-    <meta name="description" content="Portfolio Rizky Fauzi - Professional Web Developer specializing in modern website solutions for Indonesian MSMEs. Services: Web Development, UI/UX Design, and Responsive Design.">
+    <meta name="description" content="Portfolio Rizky Fauzi - Web Developer building modern digital solutions for Indonesian MSMEs. Services: Web Dev, UI/UX & Responsive Design.">
     <meta name="keywords" content="Rizky Fauzi, Web Developer, Portfolio, UMKM Digital, Website Indonesia, UI/UX Design, Laravel, React, Tailwind CSS">
     <meta name="author" content="Rizky Fauzi">
     
