@@ -55,6 +55,7 @@ if (!isset($_SESSION[$sessionKey])) {
     <meta property="twitter:description" content="Helping Indonesian MSMEs go digital with professional and functional websites. Explore my projects and services.">
     <meta property="twitter:image" content="https://rizkyfauzi.com/assets/img/profile.webp">
 
+    <link rel="apple-touch-icon" href="assets/img/profile.webp">
     <link rel="canonical" href="https://rizkyfauzi.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
