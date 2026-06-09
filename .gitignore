@@ -1,0 +1,4 @@
+.env
+node_modules/
+data/stats.json
+error_log

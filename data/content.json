@@ -1,0 +1,73 @@
+{
+    "stats": {
+        "views": 29,
+        "unique_ips": [
+            "127.0.0.1"
+        ]
+    },
+    "chatbot": {
+        "model_id": "deepseek-chat",
+        "system_prompt": "You are an AI assistant for Rizky Fauzi's portfolio website. Rizky is a Professional Web Developer focused on helping Indonesian MSMEs. Answer concisely and use clear formatting. Avoid excessive use of asterisks (**). Use bullet points or new lines for lists instead of dense text. Always answer in the language the user uses."
+    },
+    "portfolio": [],
+    "id": {
+        "nav-home": "Beranda",
+        "nav-services": "Layanan",
+        "nav-about": "Tentang",
+        "nav-portfolio": "Portofolio",
+        "nav-contact": "Kontak",
+        "hire": "Hubungi Saya",
+        "greeting": "Halo, Saya",
+        "hero-name": "Rizky Fauzi",
+        "hero-desc": "Professional Web Developer yang berfokus menciptakan solusi digital modern, termasuk membantu UMKM Indonesia untuk go-digital dengan website yang profesional dan fungsional.",
+        "services-sub": "Apa Yang Saya Lakukan",
+        "services-title": "Layanan Saya",
+        "service-web-title": "Pengembangan Web",
+        "service-web-desc": "Membangun website berkualitas tinggi dan responsif dengan teknologi terbaru dan praktik terbaik.",
+        "service-ui-title": "Desain UI\/UX",
+        "service-ui-desc": "Menciptakan antarmuka pengguna yang intuitif dan menarik secara visual untuk pengalaman pengguna yang luar biasa.",
+        "service-resp-title": "Desain Responsif",
+        "service-resp-desc": "Memastikan website Anda tampil dan berfungsi sempurna di semua perangkat, dari desktop hingga smartphone.",
+        "about-sub": "Biografi",
+        "about-title": "Tentang Saya",
+        "about-desc": "Saya adalah seorang pengembang web yang berdedikasi untuk menciptakan pengalaman digital yang bersih dan efisien. Fokus utama saya saat ini adalah membantu UMKM Indonesia bertransformasi ke ranah digital melalui solusi teknologi yang tepat guna dan terjangkau.",
+        "portfolio-sub": "Karya Saya",
+        "portfolio-title": "Portofolio",
+        "contact-sub": "Hubungi Kami",
+        "contact-title": "Kontak Saya",
+        "contact-email": "email@rizkyfauzi.com",
+        "bot-name": "Rizky AI",
+        "bot-welcome": "Halo! Saya asisten AI Rizky. Ada yang bisa saya bantu?",
+        "bot-reply": "Terima kasih atas pesannya! Rizky akan segera menghubungi Anda kembali."
+    },
+    "en": {
+        "nav-home": "Home",
+        "nav-services": "Services",
+        "nav-about": "About",
+        "nav-portfolio": "Portfolio",
+        "nav-contact": "Contact",
+        "hire": "Hire Me",
+        "greeting": "Hello, I'm",
+        "hero-name": "Rizky Fauzi",
+        "hero-desc": "Professional Web Developer focused on creating modern digital solutions, including helping Indonesian MSMEs to go digital with professional and functional websites.",
+        "services-sub": "What I Do",
+        "services-title": "My Services",
+        "service-web-title": "Web Development",
+        "service-web-desc": "Building high-quality, responsive websites with the latest technologies and best practices.",
+        "service-ui-title": "UI\/UX Design",
+        "service-ui-desc": "Creating intuitive and visually appealing user interfaces for great user experiences.",
+        "service-resp-title": "Responsive Design",
+        "service-resp-desc": "Ensuring your website looks and works perfectly on all devices, from desktops to smartphones.",
+        "about-sub": "Biography",
+        "about-title": "About Me",
+        "about-desc": "I am a dedicated web developer focused on creating clean and efficient digital experiences. My main focus is helping Indonesian MSMEs transform to the digital realm through effective and affordable technology solutions.",
+        "portfolio-sub": "My Works",
+        "portfolio-title": "Portfolio",
+        "contact-sub": "Get In Touch",
+        "contact-title": "Contact Me",
+        "contact-email": "email@rizkyfauzi.com",
+        "bot-name": "Rizky AI",
+        "bot-welcome": "Hello! I'm Rizky's AI assistant. How can I help you?",
+        "bot-reply": "Thanks for the message! Rizky will get back to you as soon as possible."
+    }
+}
