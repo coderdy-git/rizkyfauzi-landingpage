@@ -31,7 +31,8 @@ if (empty($userMessage)) {
 }
 
 // System Prompt
-$systemPrompt = $systemBasePrompt . " Current language mode: " . ($lang == 'id' ? 'Indonesian' : 'English') . ". Answer accordingly.";
+$cvContext = json_encode($contentData['id']);
+$systemPrompt = $systemBasePrompt . " Current language mode: " . ($lang == 'id' ? 'Indonesian' : 'English') . ". Answer accordingly. Here is Rizky Fauzi's CV data context to base your answers on: " . $cvContext;
 
 $data = [
     'model' => $modelId,
