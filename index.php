@@ -32,27 +32,27 @@ if (!isset($_SESSION[$sessionKey])) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rizky Fauzi | Professional Web Developer Portfolio</title>
-    <meta name="description" content="Portfolio Rizky Fauzi - Web Developer building modern digital solutions for Indonesian MSMEs. Services: Web Dev, UI/UX & Responsive Design.">
-    <meta name="keywords" content="Rizky Fauzi, Web Developer, Portfolio, UMKM Digital, Website Indonesia, UI/UX Design, Laravel, React, Tailwind CSS">
+    <title>Rizky Fauzi</title>
+    <meta name="description" content="Curriculum Vitae (CV) & Portofolio Rizky Fauzi. Profesional berpengalaman di bidang administrasi perkantoran, operasional, dan pengawasan proyek lapangan (drafting).">
+    <meta name="keywords" content="Rizky Fauzi, CV, Resume, Portofolio, Administrasi Perkantoran, Drafter, Pengawas Proyek, Customer Service, Office Boy, Bogor">
     <meta name="author" content="Rizky Fauzi">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://rizkyfauzi.com/">
-    <meta property="og:title" content="Rizky Fauzi | Professional Web Developer">
-    <meta property="og:description" content="Helping Indonesian MSMEs go digital with professional and functional websites. Explore my projects and services.">
+    <meta property="og:title" content="CV & Portofolio - Rizky Fauzi">
+    <meta property="og:description" content="Curriculum Vitae (CV) & Portofolio Rizky Fauzi. Profesional berpengalaman di bidang administrasi perkantoran, operasional, dan pengawasan proyek lapangan.">
     <meta property="og:image" content="https://rizkyfauzi.com/assets/img/profile.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://rizkyfauzi.com/">
-    <meta property="twitter:title" content="Rizky Fauzi | Professional Web Developer">
-    <meta property="twitter:description" content="Helping Indonesian MSMEs go digital with professional and functional websites. Explore my projects and services.">
+    <meta property="twitter:title" content="CV & Portofolio - Rizky Fauzi">
+    <meta property="twitter:description" content="Curriculum Vitae (CV) & Portofolio Rizky Fauzi. Profesional berpengalaman di bidang administrasi perkantoran, operasional, dan pengawasan proyek lapangan.">
     <meta property="twitter:image" content="https://rizkyfauzi.com/assets/img/profile.webp">
 
     <link rel="apple-touch-icon" href="assets/img/profile.webp">
@@ -60,13 +60,13 @@ if (!isset($_SESSION[$sessionKey])) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="/" style="text-decoration: none; color: inherit;"><h1>Rizky.</h1></a>
+            <a href="/" style="text-decoration: none; color: inherit;"><span class="logo-text">Rizky.</span></a>
         </div>
         <div class="menu-toggle" id="mobile-menu">
             <i class="fas fa-bars"></i>
@@ -82,8 +82,8 @@ if (!isset($_SESSION[$sessionKey])) {
         </nav>
         <div class="header-right">
             <div class="lang-switcher">
-                <button class="lang-btn" data-lang="id">ID</button>
-                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn active" data-lang="id">ID</button>
+                <button class="lang-btn" data-lang="en">EN</button>
             </div>
             <a href="#" class="btn-hire"><i class="fas fa-terminal"></i> <span data-i18n="hire">Hire Me</span></a>
         </div>
@@ -103,10 +103,9 @@ if (!isset($_SESSION[$sessionKey])) {
                             Professional Web Developer focused on creating modern digital solutions, including helping Indonesian MSMEs to go digital with professional and functional websites.
                         </p>
                         <div class="social-links">
-                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/rizkyfau_zi" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="https://threads.net/@rizkyfau_zi" target="_blank" class="social-icon"><i class="fab fa-threads"></i></a>
+                            <a href="https://github.com/coderdy-git" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -130,17 +129,32 @@ if (!isset($_SESSION[$sessionKey])) {
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <i class="fas fa-layer-group"></i>
+                            <i class="fas fa-hard-hat"></i>
                         </div>
                         <h3 data-i18n="service-ui-title">UI/UX Design</h3>
                         <p data-i18n="service-ui-desc">Creating intuitive and visually appealing user interfaces that provide great user experiences.</p>
                     </div>
                     <div class="service-card">
                         <div class="service-icon">
-                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-users"></i>
                         </div>
                         <h3 data-i18n="service-resp-title">Responsive Design</h3>
                         <p data-i18n="service-resp-desc">Ensuring your website looks and works perfectly on all devices, from desktops to smartphones.</p>
+                    </div>
+                </div>
+
+                <div class="skills-container" style="margin-top: 50px;">
+                    <h3 data-i18n="skills-list-title" style="text-align: center; margin-bottom: 25px; color: var(--text-main); font-size: 1.5rem;">Keahlian Tambahan</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Administrasi Perkantoran</span>
+                        <span class="skill-tag">Microsoft Office</span>
+                        <span class="skill-tag">AutoCAD (Drafting)</span>
+                        <span class="skill-tag">Pengawasan Proyek Lapangan</span>
+                        <span class="skill-tag">Customer Service</span>
+                        <span class="skill-tag">Manajemen Waktu</span>
+                        <span class="skill-tag">Operasional Kebersihan</span>
+                        <span class="skill-tag">Dasar Akuntansi & Pembukuan</span>
+                        <span class="skill-tag">Pengarsipan Dokumen</span>
                     </div>
                 </div>
             </div>
@@ -153,9 +167,115 @@ if (!isset($_SESSION[$sessionKey])) {
                     <h2 data-i18n="about-title">About Me</h2>
                     <div class="underline"></div>
                 </div>
-                <p style="text-align: center; max-width: 700px; color: var(--text-muted); margin: 0 auto; line-height: 1.8;" data-i18n="about-desc">
-                    I am a dedicated web developer focused on creating clean and efficient digital experiences. My main focus is helping Indonesian MSMEs transform to the digital realm through effective and affordable technology solutions.
-                </p>
+                <div class="timeline-container">
+                    <div class="timeline-section">
+                        <h3><i class="fas fa-briefcase"></i> <span data-i18n="timeline-work-title">Work Experience</span></h3>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="job1-title">Office Boy</h4>
+                                <h5 data-i18n="job1-company">PT. Catur Inti Sejahtera</h5>
+                                <span class="timeline-date" data-i18n="job1-date">Dec 2019 - Present</span>
+                                <p data-i18n="job1-desc">Desc</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="job2-title">Grab</h4>
+                                <h5 data-i18n="job2-company">Mitra Grab</h5>
+                                <span class="timeline-date" data-i18n="job2-date">Dec 2018 - Dec 2019</span>
+                                <p data-i18n="job2-desc">Desc</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="job3-title">Drafter</h4>
+                                <h5 data-i18n="job3-company">PT Geolica</h5>
+                                <span class="timeline-date" data-i18n="job3-date">Oct 2016 - Dec 2018</span>
+                                <p data-i18n="job3-desc">Desc</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="job4-title">Admin</h4>
+                                <h5 data-i18n="job4-company">PT Polyguna</h5>
+                                <span class="timeline-date" data-i18n="job4-date">Jan 2015 - Sep 2016</span>
+                                <p data-i18n="job4-desc">Desc</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="job5-title">Office Boy</h4>
+                                <h5 data-i18n="job5-company">PT. Labora</h5>
+                                <span class="timeline-date" data-i18n="job5-date">Feb 2014 - Nov 2014</span>
+                                <p data-i18n="job5-desc">Desc</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="job6-title">Ride Attendant</h4>
+                                <h5 data-i18n="job6-company">Jungleland</h5>
+                                <span class="timeline-date" data-i18n="job6-date">Mar 2013 - Jan 2014</span>
+                                <p data-i18n="job6-desc">Desc</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="job7-title">Intern</h4>
+                                <h5 data-i18n="job7-company">KPP</h5>
+                                <span class="timeline-date" data-i18n="job7-date">Jan 2012 - Aug 2012</span>
+                                <p data-i18n="job7-desc">Desc</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-section">
+                        <h3><i class="fas fa-graduation-cap"></i> <span data-i18n="timeline-edu-title">Education</span></h3>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="edu1-title">Accounting</h4>
+                                <h5 data-i18n="edu1-school">SMKN 1 Bojonggede</h5>
+                                <span class="timeline-date" data-i18n="edu1-date">2010 - 2013</span>
+                                <p data-i18n="edu1-desc">Studied...</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="edu2-title">Junior High</h4>
+                                <h5 data-i18n="edu2-school">SMP</h5>
+                                <span class="timeline-date" data-i18n="edu2-date">2007 - 2010</span>
+                                <p data-i18n="edu2-desc">...</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="edu3-title">Elementary</h4>
+                                <h5 data-i18n="edu3-school">SD</h5>
+                                <span class="timeline-date" data-i18n="edu3-date">2001 - 2007</span>
+                                <p data-i18n="edu3-desc">...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -179,12 +299,20 @@ if (!isset($_SESSION[$sessionKey])) {
                     <h2 data-i18n="contact-title">Contact Me</h2>
                     <div class="underline"></div>
                 </div>
-                <p style="text-align: center; color: var(--text-muted); font-weight: 600; margin-bottom: 30px;" data-i18n="contact-email">email@rizkyfauzi.com</p>
-                <div class="social-links" style="justify-content: center;">
-                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <div class="contact-simple">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span data-i18n="contact-email">rizkyfauzi@hotmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bogor, Indonesia</span>
+                    </div>
+                </div>
+                <div class="social-links-pro" style="justify-content: center; margin-top: 30px;">
+                    <a href="https://instagram.com/rizkyfau_zi" target="_blank" class="social-btn"><i class="fab fa-instagram"></i></a>
+                    <a href="https://threads.net/@rizkyfau_zi" target="_blank" class="social-btn"><i class="fab fa-threads"></i></a>
+                    <a href="https://github.com/coderdy-git" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
@@ -221,7 +349,7 @@ if (!isset($_SESSION[$sessionKey])) {
         const translations = <?php echo json_encode($data); ?>;
 
         const langBtns = document.querySelectorAll(".lang-btn");
-        let currentLang = "en";
+        let currentLang = "id";
 
         const setLanguage = (lang) => {
             currentLang = lang;
@@ -229,6 +357,13 @@ if (!isset($_SESSION[$sessionKey])) {
                 const key = el.getAttribute("data-i18n");
                 if (translations[lang] && translations[lang][key]) {
                     el.textContent = translations[lang][key];
+                }
+            });
+
+            document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+                const key = el.getAttribute("data-i18n-placeholder");
+                if (translations[lang] && translations[lang][key]) {
+                    el.placeholder = translations[lang][key];
                 }
             });
             
@@ -279,7 +414,7 @@ if (!isset($_SESSION[$sessionKey])) {
             });
         };
 
-        setLanguage("en");
+        setLanguage("id");
 
         langBtns.forEach(btn => {
             btn.addEventListener("click", () => {
