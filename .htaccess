@@ -1,0 +1,7 @@
+# Matikan fitur Directory Listing (agar isi folder tidak bisa dilihat orang lain)
+Options -Indexes
+
+# (Opsional) Melindungi file-file penting agar tidak bisa diakses langsung jika dibutuhkan
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
